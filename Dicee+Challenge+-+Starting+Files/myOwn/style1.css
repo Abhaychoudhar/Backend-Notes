@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(55, 55, 58);
+}
+.heading{
+    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    text-align: center
+}
+.box{
+    position: relative;
+    left: 450px;
+    top: 25px;
+    display: flex;
+    gap: 29px;
+    
+}
+.player{
+    display: flex;
+    color: aqua;
+    font-size: 20px;
+    gap: 80px;
+    justify-content: center;
+}
+.item{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    border-radius: 5px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+footer{
+    position: relative;
+    left: 700px;
+    top: 100px;
+    color: whitesmoke;
+}
+.circle{
+    background-color: red;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 30px;
+    top: 24px;
+}
+/* .ltwo,.leight,.rtwo,.reight{
+    background-color: red;
+} */

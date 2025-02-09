@@ -1,0 +1,40 @@
+.pageone{
+    height: 100vh;
+    background-image: url("https://media.gettyimages.com/id/1182634371/video/4k-loopable-color-gradient-background-animation.jpg?s=640x640&k=20&c=5-ff49bj-D7qn-wwZkfBz4-S9uXm3qM4t1_6YhDgZ1k=");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.intro{
+    font-weight: 400;
+    font-size: 3em;
+    font-family: "Caveat", serif;
+    color: aqua;
+}
+.intro1{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.myimage{
+      background-image: url("https://img.freepik.com/free-psd/person-celebrating-their-sexual-orientation_23-2150115662.jpg");
+        height: 150px;
+        width: 200px;
+        border-radius: 100%;
+    }
+.hello{
+    color: aqua;
+    font-size: 70px;
+}
+#about{
+  font-family: "Caveat", serif;
+  font-size: 30px;
+}
